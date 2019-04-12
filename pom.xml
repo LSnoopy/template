@@ -36,6 +36,7 @@
         <jedis.version>2.9.0</jedis.version>
 
         <zxing.version>3.3.3</zxing.version>
+        <quartz.version>2.2.1</quartz.version>
 
     </properties>
 
@@ -124,6 +125,12 @@
                 <groupId>com.google.zxing</groupId>
                 <artifactId>core</artifactId>
                 <version>${zxing.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.quartz-scheduler</groupId>
+                <artifactId>quartz</artifactId>
+                <version>${quartz.version}</version>
             </dependency>
 
         </dependencies>
